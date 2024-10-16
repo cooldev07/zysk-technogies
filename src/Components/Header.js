@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import { ReactComponent as Logo } from '../assets/Logo.svg';
 import { LuMenu } from 'react-icons/lu';
 
-const Header = () => {
+function Header () {
   return (
     <nav className="navbar navbar-expand-lg navbar-white bg-white shadow-sm sticky-top">
       <div className="container-fluid ps-lg-5 pe-lg-5">
@@ -41,9 +41,9 @@ const Header = () => {
                 Products
               </button>
               <ul className="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                <li><Link className="dropdown-item" to="/">Product 1</Link></li>
-                <li><Link className="dropdown-item" to="/">Product 2</Link></li>
-                <li><Link className="dropdown-item" to="/">Product 3</Link></li>
+                <li><Link className="dropdown-item" to="/"> one</Link></li>
+                <li><Link className="dropdown-item" to="/">two</Link></li>
+                <li><Link className="dropdown-item" to="/">three</Link></li>
               </ul>
             </li>
 
@@ -58,9 +58,9 @@ const Header = () => {
                 Resources
               </button>
               <ul className="dropdown-menu" aria-labelledby="resourcesDropdown">
-                <li><Link className="dropdown-item" to="/">Documentation</Link></li>
-                <li><Link className="dropdown-item" to="/">API Reference</Link></li>
-                <li><Link className="dropdown-item" to="/">Blog</Link></li>
+                <li><Link className="dropdown-item" to="/">documents</Link></li>
+                <li><Link className="dropdown-item" to="/">reference</Link></li>
+                <li><Link className="dropdown-item" to="/">blog</Link></li>
               </ul>
             </li>
 
@@ -73,7 +73,7 @@ const Header = () => {
             <li className="nav-item">
               <Link className="nav-link" to="/">
                 <img
-                  src="https://i.pravatar.cc/300"
+                  src="https://i.pravatar.cc/250?u=mail@ashallendesign.co.uk"
                   alt="Avatar"
                   width="40"
                   height="40"

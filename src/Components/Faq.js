@@ -1,5 +1,5 @@
 import React from 'react';
-import Accordion from './Accordion';
+import Accordion from './acc';
 import Image1 from '../assets/Avatar group.png'
 
 function Faq() {
